@@ -1,4 +1,13 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Simon Schueller CS 2060'
+title = 'Hello CS 2060'
 theme = 'ananke'
+
+[deployment]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "production"
+
+# Google Cloud Storage -- see https://gocloud.dev/howto/blob/#gcs
+URL = "gs://cloud-static-storage-cs2060"
