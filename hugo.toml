@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Hello CS 2060'
+title = 'Hello CS 2060 Test'
 theme = 'ananke'
 
 [deployment]
